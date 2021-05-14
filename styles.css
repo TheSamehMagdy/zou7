@@ -1,0 +1,86 @@
+body {
+	font-family: 'Chelsea Market', cursive;
+}
+
+.bg-primary {
+	background: #03a9f4 !important;
+}
+
+h1 {
+	font-size: 3rem !important;
+}
+
+.artwork {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.6em 0;
+}
+
+.facebook,
+.artwork,
+.behance,
+.instagram,
+.home {
+	background: none;
+	border: 1px solid white;
+}
+
+.facebook:hover {
+	background: #1a56d2;
+	transition: background 0.5s;
+}
+
+.artwork:hover,
+.home:hover {
+	background: #dd0b0b;
+	transition: background 0.5s;
+}
+
+.behance:hover {
+	background: #0057ff;
+	transition: background 0.5s;
+}
+
+.instagram:hover {
+	background: #b027cd;
+	transition: background 0.5s;
+}
+
+.carousel-item {
+	max-height: 800px;
+}
+
+.carousel-item img {
+	max-height: 800px;
+	object-fit: contain;
+}
+
+.carousel-inner > .item {
+	height: 800px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+	display: block;
+}
+
+@media (max-width: 576px) {
+	#logo {
+		width: 500px !important;
+	}
+
+	body {
+		margin-top: 150px;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		margin-top: 150px;
+	}
+
+	video[poster] {
+		width: 260px;
+	}
+}
