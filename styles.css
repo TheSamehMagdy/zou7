@@ -67,20 +67,27 @@ h1 {
 
 @media (max-width: 576px) {
 	#logo {
-		width: 500px !important;
+		width: 10em !important;
 	}
 
-	body {
-		margin-top: 150px;
-	}
-}
-
-@media (max-width: 768px) {
-	body {
-		margin-top: 150px;
+	h1 {
+		font-size: 2rem !important;
 	}
 
-	video[poster] {
-		width: 260px;
+	h6 {
+		font-size: 0.8rem !important;
+	}
+
+	.artwork {
+		padding: 0.4em;
+	}
+
+	.facebook,
+	.behance,
+	.instagram,
+	.home {
+		margin-right: 0 !important;
+		margin-bottom: 0.5em;
+		padding: auto;
 	}
 }
